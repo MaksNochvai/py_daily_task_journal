@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Tack(models.Model):
+class Task(models.Model):
     content = models.TextField(max_length=155, blank=True)
     created_datetime = models.DateTimeField(auto_now_add=True)
     deadline_datetime = models.DateTimeField(blank=True, null=True)
