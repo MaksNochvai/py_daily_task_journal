@@ -14,14 +14,28 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
-from django.urls import path, include
-from django.conf import settings
-from django.conf.urls.static import static
+from django.urls import path
 
+from todo_list.views import TaskListView, TagListView, TagsCreateView, TagsUpdateView, TagsDeleteView
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", include("todo_list.urls", namespace="todo_list")),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    path("", TaskListView.as_view(), name="index"),
+    path("tags/", TagListView.as_view(), name="tags"),
+    path(
+        "tags/create/",
+        TagsCreateView.as_view(),
+        name="tags-create",
+    ),
+    path(
+        "tags/<int:pk>/update/",
+        TagsUpdateView.as_view(),
+        name="tags-update",
+    ),
+    path(
+        "tags/<int:pk>/delete/",
+        TagsDeleteView.as_view(),
+        name="tags-delete",
+    ),
+]
 
+app_name = "todo_list"
