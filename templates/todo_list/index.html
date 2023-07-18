@@ -1,12 +1,68 @@
 {% extends "base.html" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-  <body>
-    <h1>Todo List</h1>
-  </body>
-</html>
+{% block content %}
+  <h1>
+    TODO list
+    <a href="{% url 'todo_list:task-create' %}" class="btn btn-success link-to-page float-right">
+      Add task
+    </a>
+  </h1>
+  <br>
+  <br>
+  {% if task_list %}
+      {% for task in task_list %}
+        <tr>
+          <td>
+            <strong>{{ task.content }}</strong>
+            {% if task.is_done %}
+              <strong style="color: green;">Done</strong>
+            {% else %}
+              <strong style="color: red;">Not done</strong>
+            {% endif %}
+            {% if task.is_done %}
+              <button onclick="toggleStatus({{ task.id }})" class="btn btn-secondary float-right">Undo</button>
+            {% else %}
+              <button onclick="toggleStatus({{ task.id }})" class="btn btn-success float-right">Complete</button>
+            {% endif %}
+          <td>
+            <p>Created at: {{ task.created_datetime }}</p>
+            <p style="color: red">
+              {% if task.deadline_datetime %}
+                Deadline: {{ task.deadline_datetime }}
+              {% endif %}
+            </p>
+          </td>
+          <strong style="color: grey;">Tags:</strong> <span style="color: grey;">{% for tag in task.tags.all %}
+              {{ tag.name }}
+              {% if not forloop.last %}, {% endif %}
+            {% endfor %}</span>
+          <td>
+            <a href="{% url 'todo_list:task-update' pk=task.id %}" class="btn btn-success link-to-page">
+              Update
+            </a>
+          </td>
+          <td>
+            <a href="{% url 'todo_list:task-delete' pk=task.id %}" class="btn btn-danger link-to-page">
+              Delete
+            </a>
+          </td>
+        <hr class="border: 1px black;">
+      {% endfor %}
+  {% else %}
+    <p>There are no tasks</p>
+  {% endif %}
+
+  <script>
+    function toggleStatus(taskId) {
+      fetch(`/tasks/${taskId}/toggle-status/`)
+        .then(response => response.json())
+        .then(data => {
+          // Reload the page to see the updated status
+          window.location.reload();
+        })
+        .catch(error => {
+          console.error('Error toggling task status:', error);
+        });
+    }
+  </script>
+{% endblock %}
