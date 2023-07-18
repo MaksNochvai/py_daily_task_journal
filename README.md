@@ -54,32 +54,32 @@ python manage.py runserver
 
 ### Home page:
 
-![img.png](img_folder/img.png)
-![img_1.png](img_folder/img_1.png)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/ef85f7ef-b507-4655-acad-40b279b1b970)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/f0e1d5da-8887-4cdf-aebd-98ca6e4e5f4a)
 
 ### Create/Update task:
 
-![img_2.png](img_folder/img_2.png)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/105f9648-6ab7-4a07-9007-e718be61c34c)
 
 ### Delete task:
 
-![img_3.png](img_folder/img_3.png)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/ae4f1510-c644-4b26-9b34-50eccf1a5361)
 
 ### Mark complete task:
 
-![img_4.png](img_folder/img_4.png)
-![img_5.png](img_folder/img_5.png)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/338467a8-61eb-4591-a479-02c76ecc3617)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/8a464207-ebbd-4c05-b4c2-38d72d11b728)
 
 ### Tags page:
 
-![img_6.png](img_folder/img_6.png)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/11ada8ff-d508-45e0-8713-145c1f750e3a)
 
 ### Create/Update tags:
 
-![img_7.png](img_folder/img_7.png)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/c199988d-5dd5-49f8-b105-3c1f8cc5ba1b)
 
 ### Delete tag:
 
-![img_8.png](img_folder/img_8.png)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/65b3c5e3-7ce4-4b24-8b53-b678b32573d2)
 
 ## Happy TODO listing! 📝
