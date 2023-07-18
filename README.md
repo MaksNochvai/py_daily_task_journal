@@ -2,7 +2,6 @@
 
 -----------------------------------
 
-
 This is a simple TODO List web application developed using Django. The application allows users to create tasks, mark them as completed, and add tags to tasks for better organization.
 
 ## Installing using GitHub
