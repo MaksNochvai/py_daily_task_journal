@@ -54,32 +54,32 @@ python manage.py runserver
 
 ### Home page:
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](img_folder/img.png)
+![img_1.png](img_folder/img_1.png)
 
 ### Create/Update task:
 
-![img_2.png](img_2.png)
+![img_2.png](img_folder/img_2.png)
 
 ### Delete task:
 
-![img_3.png](img_3.png)
+![img_3.png](img_folder/img_3.png)
 
 ### Mark complete task:
 
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+![img_4.png](img_folder/img_4.png)
+![img_5.png](img_folder/img_5.png)
 
 ### Tags page:
 
-![img_6.png](img_6.png)
+![img_6.png](img_folder/img_6.png)
 
 ### Create/Update tags:
 
-![img_7.png](img_7.png)
+![img_7.png](img_folder/img_7.png)
 
 ### Delete tag:
 
-![img_8.png](img_8.png)
+![img_8.png](img_folder/img_8.png)
 
 ## Happy TODO listing! 📝
