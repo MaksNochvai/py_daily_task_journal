@@ -58,27 +58,27 @@ python manage.py runserver
 
 ### Create/Update task:
 
-![image](https://github.com/MaksNochvai/todo-list/blob/master/assets/123680608/105f9648-6ab7-4a07-9007-e718be61c34c)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/623f12c7-4d24-4ce9-93e8-4ce00a45f04e)
 
 ### Delete task:
 
-![image](https://github.com/MaksNochvai/todo-list/blob/master/assets/123680608/ae4f1510-c644-4b26-9b34-50eccf1a5361)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/6420b75f-4125-4002-b853-51551909eb70)
 
 ### Mark complete task:
 
-![image](https://github.com/MaksNochvai/todo-list/blob/master/assets/123680608/338467a8-61eb-4591-a479-02c76ecc3617)
-![image](https://github.com/MaksNochvai/todo-list/blob/master/assets/123680608/8a464207-ebbd-4c05-b4c2-38d72d11b728)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/3627fd75-491c-494c-bf78-5bfc5670640b)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/01e6310f-3ad3-49be-a861-0761123f60cc)
 
 ### Tags page:
 
-![image](https://github.com/MaksNochvai/todo-list/blob/master/assets/123680608/11ada8ff-d508-45e0-8713-145c1f750e3a)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/e9c36807-e2ae-4991-877a-be9aecfc06e8)
 
 ### Create/Update tags:
 
-![image](https://github.com/MaksNochvai/todo-list/blob/master/assets/123680608/c199988d-5dd5-49f8-b105-3c1f8cc5ba1b)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/df424c92-24de-457b-99a3-d8521212d9f9)
 
 ### Delete tag:
 
-![image](https://github.com/MaksNochvai/todo-list/blob/master/assets/123680608/65b3c5e3-7ce4-4b24-8b53-b678b32573d2)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/83fb0679-1874-42bf-8b35-a58b5f2c0d7a)
 
 ## Happy TODO listing! 📝
