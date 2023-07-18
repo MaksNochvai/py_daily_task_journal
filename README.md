@@ -53,8 +53,8 @@ python manage.py runserver
 
 ### Home page:
 
-![image](https://github.com/MaksNochvai/todo-list/blob/main/assets/123680608/ef85f7ef-b507-4655-acad-40b279b1b970)
-![image](https://github.com/MaksNochvai/todo-list/blob/main/assets/123680608/f0e1d5da-8887-4cdf-aebd-98ca6e4e5f4a)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/b68dd432-773f-4365-b463-1dabb3665fa0)
+![image](https://github.com/MaksNochvai/todo-list/assets/123680608/8a79e656-3f5f-45a5-aa94-16ed37cab3db)
 
 ### Create/Update task:
 
