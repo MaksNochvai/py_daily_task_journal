@@ -26,3 +26,5 @@ tzdata==2023.3
 unicorn==2.0.1.post1
 virtualenv==20.23.0
 whitenoise==6.4.0
+
+python-dotenv~=1.0.0
