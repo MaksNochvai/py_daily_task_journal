@@ -1,4 +1,4 @@
-# TODO List Project
+# Daily Task Journal Project
 
 -----------------------------------
 
@@ -8,7 +8,7 @@ This is a simple TODO List web application developed using Django. The applicati
 
 -----------------------------------
 
-1. Clone the repository: https://github.com/MaksNochvai/todo-list
+1. Clone the repository: https://github.com/MaksNochvai/py_daily_task_journal
 2. Set up a virtual environment and activate it:
 ```
 python -m venv venv
